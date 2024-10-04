@@ -535,4 +535,6 @@ const init = async () => {
 };
 
 // Invoke the initialization function
-await init();
+(async () => {
+    await init();
+})();
